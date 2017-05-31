@@ -1,0 +1,10 @@
+.nav.header{
+    background: #3276B1;
+    height: 70px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    justify-content: space-between;
+}

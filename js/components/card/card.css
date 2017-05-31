@@ -1,0 +1,56 @@
+.streams .contentWrapper{
+	height: calc(100% - 70px);
+    padding: 50px 100px;
+    overflow: auto;
+}
+
+.streams .tasklist{
+	width: 310;
+    border: 1px dashed red;
+    border-bottom: none;
+    border-top: none;
+    min-height: 100%
+}
+
+
+
+.streams .card .image img{
+	width:100%;
+	cursor: pointer;
+}
+
+.streams .content.simpalcard{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.streams .newProj:hover{
+	color: #1eb795
+}
+
+.streams .ui.card .meta{
+	color: #000;
+    padding-top: 8px;
+}
+.streams .ui.card{
+	cursor: pointer;
+	width: 300px;
+	margin: .875em 1.5em;
+	box-shadow: 0 1px 3px 0 #f0f0f2, 0 0 0 2px #f0f0f2;
+}
+
+.streams .ui.card:hover{
+	box-shadow: 0 1px 3px 0 #1eb795, 0 0 0 2px #1eb795;
+}
+
+.streams .ui.card .content{
+	padding: 2em
+}
+
+
+/*@media screen and (max-width: 600px) {
+	.contentWrapper{
+	display:none;
+	}
+}*/
+

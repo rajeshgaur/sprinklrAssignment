@@ -1,0 +1,67 @@
+.tasks .contentWrapper{
+	height: calc(100% - 70px);
+    padding: 50px 100px;
+    overflow: auto;
+}
+
+.tasks .tasklistWrapper{
+	    border-right: 1px dashed #d9d9da;
+	    padding: 0 5px;
+}
+
+.tasks .dropdownBody{
+	display: block;
+	top:0;
+}
+
+.tasks .dropstatus{
+	border-radius: 8px;  
+    padding: 0 5px;
+}
+
+.tasks .content.simpalcard{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.tasks .tasklist{
+
+    border-bottom: none;
+    border-top: none;
+    min-height: 100%
+}
+
+
+.tasks .card .image img{
+	width:100%;
+	cursor: pointer;
+}
+
+
+.tasks .ui.card .meta{
+	color: #000;
+    padding-top: 8px;
+}
+.tasks .ui.card{
+	cursor: pointer;
+	width: 300px;
+	margin: .875em 1.5em;
+	box-shadow: 0 1px 3px 0 #f0f0f2, 0 0 0 2px #f0f0f2;
+}
+
+/*.tasks .ui.card{
+	box-shadow: 0 1px 3px 0 #1eb795, 0 0 0 2px #1eb795;
+}*/
+
+.tasks .ui.card .content{
+	padding: 0.7em
+}
+
+
+/*@media screen and (max-width: 600px) {
+	.contentWrapper{
+	display:none;
+	}
+}*/
+

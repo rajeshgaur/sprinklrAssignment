@@ -1,0 +1,87 @@
+@media screen and (min-width: 900px) {
+  .ui.form.addClassForm{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    z-index: 1000;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+    min-width: 500px;
+}
+
+.ui.form.uploadViedoForm{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    z-index: 1000;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+    min-width: 500px;
+}
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    .ui.form.addClassForm{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    z-index: 1000;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+}
+.ui.form.uploadViedoForm{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    z-index: 1000;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+}
+}
+
+@media screen and (max-width: 700px) {
+  .ui.form.addClassForm{
+    position: absolute;
+    z-index: 1000;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+        width: 80%;
+    margin: 10%;
+}
+.ui.form.uploadViedoForm{
+    position: absolute;
+    z-index: 1000;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+        width: 80%;
+    margin: 10%;
+}
+}
+
+.addClassForm .formrow{
+	display: flex;
+    justify-content: space-around;
+}
+
+
+
+.close{
+	cursor: pointer;
+}
